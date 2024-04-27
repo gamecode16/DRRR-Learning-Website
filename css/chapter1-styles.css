@@ -1,0 +1,157 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #87ceeb;
+    background-image: url("../img/background-image.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+header {
+    background-color: #4169e1;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: #eeeeee70;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    cursor: pointer;
+}
+nav ul li:hover {
+    font-weight: bold;
+    color: #000;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+main {
+    padding: 20px;
+}
+
+div.ex1 {
+    border: none;
+    border-radius: 5px;
+    padding: 25px;
+    margin: auto;
+    background-color: #eeeeee;
+}
+
+div.ex2 {
+    border: none;
+    border-radius: 5px;
+    padding: 25px;
+    margin: auto;
+    background-color: #eeeeee;
+}
+
+div.ex3 {
+    border: none;
+    border-radius: 5px;
+    padding: 25px;
+    margin: auto;
+    background-color: #eeeeee;
+}
+
+div.ex4 {
+    border: none;
+    border-radius: 5px;
+    padding: 25px;
+    margin: auto;
+    background-color: #eeeeee;
+}
+
+.text-box {
+    color: #000;
+}
+
+.text-box h4 {
+    font-size: 22px; 
+}
+
+.header_1 {
+    height: fit-content;
+    width: fit-content;
+    border: 2px solid #000;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.header_2 {
+    height: fit-content;
+    width: fit-content;
+    border: 2px solid #000;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.text-box p {
+    font-size: 16px;
+}
+
+div.description {
+    border: none;
+    border-radius: 5px;
+    padding: 25px;
+    margin: auto;
+    background-color: #eeeeee;
+    font-size: 25px;
+
+}
+
+div.hazard {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    row-gap: 10px;
+    column-gap: 5px;
+    padding-top: 25px;
+}
+
+
+.box {
+    width: 290px;
+    height: 450px;
+    border-radius: 15px;
+    font-size: 25px;
+    margin: auto;
+    padding: 1px;
+    text-align: center;
+}
+
+#box {
+    background-color: #eeeeee;
+    margin: 2px;
+    padding: 2px;
+}
+
+img.image {
+    width: 250px;
+    margin: 10px;
+    padding: 5px;
+}
+
+p.make-center {
+    text-align: justify;
+    padding: 3px;
+    margin: 3px;
+}
